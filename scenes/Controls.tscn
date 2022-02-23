@@ -1,0 +1,29 @@
+[gd_scene load_steps=3 format=2]
+
+[ext_resource path="res://scenes/Controls.gd" type="Script" id=1]
+[ext_resource path="res://titlescreen/screencontrols.png" type="Texture" id=2]
+
+[node name="Controls" type="Control"]
+anchor_right = 1.0
+anchor_bottom = 1.0
+script = ExtResource( 1 )
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="titlescreen2" type="Sprite" parent="."]
+position = Vector2( 512, 300 )
+z_index = 1
+texture = ExtResource( 2 )
+
+[node name="back" type="Button" parent="."]
+margin_left = 416.0
+margin_top = 456.0
+margin_right = 608.0
+margin_bottom = 528.0
+text = "back"
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[connection signal="button_up" from="back" to="." method="_on_back_button_up"]

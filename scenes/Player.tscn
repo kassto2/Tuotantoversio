@@ -1,0 +1,116 @@
+[gd_scene load_steps=74 format=2]
+
+[ext_resource path="res://snowman idle/snowmanidle60.png" type="Texture" id=1]
+[ext_resource path="res://snowman idle/snowmanidle24.png" type="Texture" id=2]
+[ext_resource path="res://snowman idle/snowmanidle25.png" type="Texture" id=3]
+[ext_resource path="res://snowman idle/snowmanidle15.png" type="Texture" id=4]
+[ext_resource path="res://snowman idle/snowmanidle20.png" type="Texture" id=5]
+[ext_resource path="res://snowman idle/snowmanidle9.png" type="Texture" id=6]
+[ext_resource path="res://snowman idle/snowmanidle10.png" type="Texture" id=7]
+[ext_resource path="res://snowman idle/snowmanidle14.png" type="Texture" id=8]
+[ext_resource path="res://snowman idle/snowmanidle13.png" type="Texture" id=9]
+[ext_resource path="res://snowman idle/snowmanidle17.png" type="Texture" id=10]
+[ext_resource path="res://snowman idle/snowmanidle16.png" type="Texture" id=11]
+[ext_resource path="res://snowman idle/snowmanidle21.png" type="Texture" id=12]
+[ext_resource path="res://snowman idle/snowmanidle12.png" type="Texture" id=13]
+[ext_resource path="res://snowman idle/snowmanidle22.png" type="Texture" id=14]
+[ext_resource path="res://snowman idle/snowmanidle23.png" type="Texture" id=15]
+[ext_resource path="res://snowman idle/snowmanidle11.png" type="Texture" id=16]
+[ext_resource path="res://snowman idle/snowmanidle18.png" type="Texture" id=17]
+[ext_resource path="res://snowman idle/snowmanidle19.png" type="Texture" id=18]
+[ext_resource path="res://snowman idle/snowmanidle38.png" type="Texture" id=19]
+[ext_resource path="res://snowman idle/snowmanidle39.png" type="Texture" id=20]
+[ext_resource path="res://snowman idle/snowmanidle40.png" type="Texture" id=21]
+[ext_resource path="res://snowman idle/snowmanidle41.png" type="Texture" id=22]
+[ext_resource path="res://snowman idle/snowmanidle42.png" type="Texture" id=23]
+[ext_resource path="res://snowman idle/snowmanidle30.png" type="Texture" id=24]
+[ext_resource path="res://snowman idle/snowmanidle35.png" type="Texture" id=25]
+[ext_resource path="res://snowman idle/snowmanidle36.png" type="Texture" id=26]
+[ext_resource path="res://snowman idle/snowmanidle27.png" type="Texture" id=27]
+[ext_resource path="res://snowman idle/snowmanidle26.png" type="Texture" id=28]
+[ext_resource path="res://snowman idle/snowmanidle34.png" type="Texture" id=29]
+[ext_resource path="res://snowman idle/snowmanidle28.png" type="Texture" id=30]
+[ext_resource path="res://snowman idle/snowmanidle29.png" type="Texture" id=31]
+[ext_resource path="res://snowman idle/snowmanidle31.png" type="Texture" id=32]
+[ext_resource path="res://snowman idle/snowmanidle32.png" type="Texture" id=33]
+[ext_resource path="res://snowman idle/snowmanidle33.png" type="Texture" id=34]
+[ext_resource path="res://snowman idle/snowmanidle37.png" type="Texture" id=35]
+[ext_resource path="res://snowman idle/snowmanidle44.png" type="Texture" id=36]
+[ext_resource path="res://snowman idle/snowmanidle53.png" type="Texture" id=37]
+[ext_resource path="res://snowman idle/snowmanidle45.png" type="Texture" id=38]
+[ext_resource path="res://snowman idle/snowmanidle49.png" type="Texture" id=39]
+[ext_resource path="res://snowman idle/snowmanidle52.png" type="Texture" id=40]
+[ext_resource path="res://snowman idle/snowmanidle47.png" type="Texture" id=41]
+[ext_resource path="res://snowman idle/snowmanidle46.png" type="Texture" id=42]
+[ext_resource path="res://snowman idle/snowmanidle57.png" type="Texture" id=43]
+[ext_resource path="res://snowman idle/snowmanidle58.png" type="Texture" id=44]
+[ext_resource path="res://snowman idle/snowmanidle56.png" type="Texture" id=45]
+[ext_resource path="res://snowman idle/snowmanidle54.png" type="Texture" id=46]
+[ext_resource path="res://snowman idle/snowmanidle55.png" type="Texture" id=47]
+[ext_resource path="res://snowman idle/snowmanidle50.png" type="Texture" id=48]
+[ext_resource path="res://snowman idle/snowmanidle43.png" type="Texture" id=49]
+[ext_resource path="res://snowman idle/snowmanidle48.png" type="Texture" id=50]
+[ext_resource path="res://snowman idle/snowmanidle51.png" type="Texture" id=51]
+[ext_resource path="res://snowman idle/snowmanidle59.png" type="Texture" id=52]
+[ext_resource path="res://snowman idle/snowmanidle4.png" type="Texture" id=53]
+[ext_resource path="res://snowman idle/snowmanidle1.png" type="Texture" id=54]
+[ext_resource path="res://snowman idle/snowmanidle2.png" type="Texture" id=55]
+[ext_resource path="res://snowman idle/snowmanidle3.png" type="Texture" id=56]
+[ext_resource path="res://snowman idle/snowmanidle5.png" type="Texture" id=57]
+[ext_resource path="res://snowman idle/snowmanidle6.png" type="Texture" id=58]
+[ext_resource path="res://snowman idle/snowmanidle7.png" type="Texture" id=59]
+[ext_resource path="res://snowman idle/snowmanidle8.png" type="Texture" id=60]
+[ext_resource path="res://scenes/Player.gd" type="Script" id=61]
+[ext_resource path="res://snowman run/snowmanrun9.png" type="Texture" id=62]
+[ext_resource path="res://snowman run/snowmanrun3.png" type="Texture" id=63]
+[ext_resource path="res://snowman run/snowmanrun7.png" type="Texture" id=64]
+[ext_resource path="res://snowman run/snowmanrun10.png" type="Texture" id=65]
+[ext_resource path="res://snowman run/snowmanrun1.png" type="Texture" id=66]
+[ext_resource path="res://snowman run/snowmanrun6.png" type="Texture" id=67]
+[ext_resource path="res://snowman run/snowmanrun2.png" type="Texture" id=68]
+[ext_resource path="res://snowman run/snowmanrun8.png" type="Texture" id=69]
+[ext_resource path="res://snowman run/snowmanrun5.png" type="Texture" id=70]
+[ext_resource path="res://snowman run/snowmanrun4.png" type="Texture" id=71]
+
+[sub_resource type="RectangleShape2D" id=1]
+extents = Vector2( 9, 15.75 )
+
+[sub_resource type="SpriteFrames" id=2]
+animations = [ {
+"frames": [ ExtResource( 54 ), ExtResource( 55 ), ExtResource( 56 ), ExtResource( 53 ), ExtResource( 57 ), ExtResource( 58 ), ExtResource( 59 ), ExtResource( 60 ), ExtResource( 6 ), ExtResource( 7 ), ExtResource( 16 ), ExtResource( 13 ), ExtResource( 9 ), ExtResource( 8 ), ExtResource( 4 ), ExtResource( 11 ), ExtResource( 10 ), ExtResource( 17 ), ExtResource( 18 ), ExtResource( 5 ), ExtResource( 12 ), ExtResource( 14 ), ExtResource( 15 ), ExtResource( 2 ), ExtResource( 3 ), ExtResource( 28 ), ExtResource( 27 ), ExtResource( 30 ), ExtResource( 31 ), ExtResource( 24 ), ExtResource( 32 ), ExtResource( 33 ), ExtResource( 34 ), ExtResource( 29 ), ExtResource( 25 ), ExtResource( 26 ), ExtResource( 35 ), ExtResource( 19 ), ExtResource( 20 ), ExtResource( 21 ), ExtResource( 22 ), ExtResource( 23 ), ExtResource( 49 ), ExtResource( 36 ), ExtResource( 38 ), ExtResource( 42 ), ExtResource( 41 ), ExtResource( 50 ), ExtResource( 39 ), ExtResource( 48 ), ExtResource( 51 ), ExtResource( 40 ), ExtResource( 37 ), ExtResource( 46 ), ExtResource( 47 ), ExtResource( 45 ), ExtResource( 43 ), ExtResource( 44 ), ExtResource( 52 ), ExtResource( 1 ) ],
+"loop": true,
+"name": "idle",
+"speed": 15.0
+}, {
+"frames": [ ExtResource( 66 ), ExtResource( 68 ), ExtResource( 63 ), ExtResource( 71 ), ExtResource( 70 ), ExtResource( 67 ), ExtResource( 64 ), ExtResource( 69 ), ExtResource( 62 ), ExtResource( 65 ) ],
+"loop": true,
+"name": "run",
+"speed": 15.0
+} ]
+
+[node name="Player" type="KinematicBody2D"]
+position = Vector2( 496, 304 )
+script = ExtResource( 61 )
+
+[node name="playercol" type="CollisionShape2D" parent="."]
+position = Vector2( 48, 32 )
+shape = SubResource( 1 )
+
+[node name="playersprite" type="AnimatedSprite" parent="."]
+position = Vector2( 48, 16 )
+frames = SubResource( 2 )
+animation = "run"
+frame = 6
+playing = true
+
+[node name="playercamera" type="Camera2D" parent="."]
+position = Vector2( 0, -2 )
+current = true
+zoom = Vector2( 0.6, 0.6 )
+limit_left = 0
+limit_top = 0
+limit_right = 1024
+limit_bottom = 600
+smoothing_enabled = true
+smoothing_speed = 3.0
+editor_draw_limits = true
